@@ -16,16 +16,22 @@
                 <form>
                     <table>
                         <tr>
-                            <td><input type="email" name="data" class="data" placeholder="Email or phone number"/></td>
+                            <td><input id="email" type="email" name="data" class="data email" placeholder="Email or phone number"/></td>
                         </tr>
                         <tr>
-                            <td><input type="password" name="data" class="data" placeholder="Password"/></td>
+                            <td><span id="error-a" class="error"></span></td>
+                        </tr>
+                        <tr>
+                            <td><input id="pw" type="password" name="data" class="data password" placeholder="Password"/></td>
+                        </tr>
+                        <tr>
+                            <td><span id="error-b" class="error"></span></td>
                         </tr>
                     </table>
                 </form>
             </div>
             <div>
-                <button type="button" id="log-in">Log In</button>
+                <button type="submit" id="log-in">Log In</button>
             </div>
             <div class="log-in">
                 <a href="#">Sign Up for Facebook</a>
@@ -33,6 +39,7 @@
             <div class="log-in">
                 <a href="#">Need Help?</a>
             </div>            
-        </div>	    
+        </div>
+        <script src="js/login.js"></script>
 	</body>
 </html>

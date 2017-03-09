@@ -5,6 +5,7 @@ html {
 
 a {
     font-family: Helvetica;
+    font-size: 15px;
     color: white;
     text-decoration: none;
 }
@@ -50,8 +51,15 @@ input {
     width: 290px;
     height: 50px;
     margin-bottom: 10%;
+    cursor: pointer;
 }
 
 .log-in {
     margin-bottom: 1%;
+}
+
+.error {
+    font-family: Helvetica;
+    font-size: 10px;
+    color: gray;
 }
