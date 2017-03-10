@@ -1,5 +1,5 @@
 html {
-    background-color: #3B5B98;
+    background-color: #3B5998;
     text-align: center;
 }
 
@@ -8,6 +8,17 @@ a {
     font-size: 15px;
     color: white;
     text-decoration: none;
+}
+
+input {
+    border: none;
+    font-family: Helvetica;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 270px;
+    height: 40px;
+    background: transparent;
+    border-top: none; 
 }
 
 #main-container {
@@ -21,7 +32,7 @@ a {
     color: white;
 }
 
-#form {    
+#form {
     background: white;
     border-radius: 4px;
     width: 290px;
@@ -29,16 +40,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.5%;
-}
-
-input {
-    border: none;
-    font-family: Helvetica;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 270px;
-    height: 40px;
-    background: transparent;
 }
 
 #log-in {

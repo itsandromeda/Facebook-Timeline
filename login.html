@@ -1,45 +1,51 @@
 <!doctype html>
 
 <html>
-	<head>
-		<title>Facebook Login</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/login.css">
-		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-	</head>
 
-	<body>
-        <div id="main-container">
-            <span id="logo">facebook</span>
-            <div id="form">
-                <form>
-                    <table>
-                        <tr>
-                            <td><input id="email" type="email" name="data" class="data email" placeholder="Email or phone number"/></td>
-                        </tr>
-                        <tr>
-                            <td><span id="error-a" class="error"></span></td>
-                        </tr>
-                        <tr>
-                            <td><input id="pw" type="password" name="data" class="data password" placeholder="Password"/></td>
-                        </tr>
-                        <tr>
-                            <td><span id="error-b" class="error"></span></td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-            <div>
-                <button type="submit" id="log-in">Log In</button>
-            </div>
-            <div class="log-in">
-                <a href="#">Sign Up for Facebook</a>
-            </div>
-            <div class="log-in">
-                <a href="#">Need Help?</a>
-            </div>            
+<head>
+    <title>Facebook Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-container">
+        <span id="logo">facebook</span>
+        <div id="form">
+            <form class="" action="index.html" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <input id="email" type="email" name="data" class="data email" placeholder="Email or phone number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span id="error-a" class="error"></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="pw" type="password" name="data" class="data password" placeholder="Password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span id="error-b" class="error"></span></td>
+                    </tr>
+                </table>
+            </form>
         </div>
-        <script src="js/login.js"></script>
-	</body>
+        <div>
+            <button type="button" id="log-in">Log In</button>
+        </div>
+        <div class="log-in">
+            <a href="#">Sign Up for Facebook</a>
+        </div>
+        <div class="log-in">
+            <a href="#">Need Help?</a>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
 </html>
