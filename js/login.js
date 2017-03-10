@@ -34,8 +34,7 @@ window.addEventListener('load', function () {
             /*EMAIL VALIDATION*/
             if (email === "") {
                 emailError.innerHTML = "This field can't be blank.";
-            }
-            if (email !== users[0].email || email !== users[1].email) {
+            } else if (email !== users[0].email || email !== users[1].email) {
                 emailError.innerHTML = "This user doesn't exist.";
             }
             if (email == users[0].email || email == users[1].email) {
@@ -44,8 +43,7 @@ window.addEventListener('load', function () {
             /*PASSWORD VALIDATION*/
             if (password === "") {
                 pwError.innerHTML = "This field can't be blank.";
-            }
-            if (password !== users[0].password || password !== users[1].password) {
+            } else if (password !== users[0].password || password !== users[1].password) {
                 pwError.innerHTML = "The password is incorrect.";
             }
             if (password == users[0].password || password == users[1].password) {
