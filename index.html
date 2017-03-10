@@ -26,7 +26,7 @@
             <textarea id="status" placeholder="What's on your mind?"></textarea>
         </div>
         <div id="other-language-container">
-            <span id="other-language-text"><i class="fa fa-plus-circle" aria-hidden="true"></i>Write post in another language <span class="q">[?]</span></span>  
+            <span id="other-language-text"><i class="fa fa-plus-circle" aria-hidden="true"></i>Write post in another language <span class="q">[?]</span></span>
         </div>
         <div id="buttons">
             <div id="bottom-left-btns">
@@ -38,11 +38,18 @@
             </div>
             <div id="bottom-right-btns">
                 <button type="button" id="post">Post</button>
-                <button type="button" id="friends"><i class="fa fa-users"></i>Friends<i class="fa fa-caret-down"></i></button>
+                <button type="button" id="friends" class="privacy"><i class="fa fa-users"></i>Friends<i class="fa fa-caret-down"></i></button>
             </div>
         </div>
+        <div id="privacy">
+            <button type="button" id="public" class="privacy">Public</button>
+            <button type="button" id="private" class="privacy">Friends</button>
+        </div>
+        <div id="resultado"></div>
     </div>
+
     <script src="js/login.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@ html {
 }
 
 #main-container {
-    border:1px solid #DDDFE2;
+    border: 1px solid #DDDFE2;
     /*border-radius: 3px;*/
     margin: 4% auto;
     width: 475px;
@@ -40,18 +40,15 @@ html {
     color: #C9CDD2;
 }
 
-#friends { /*BORDER COLOR: #DDDFE2*/
+#friends {
+    /*BORDER COLOR: #DDDFE2*/
     float: right;
-    border:1px solid #DDDFE2;
-    border-radius: 2px;
-    background: #F6F7F9;
-    color: #4B4F56;
-    font-family: Helvetica;
-    width: 100px;
-    height: 25px;
-    margin-right:  10px;
-    outline: none;
-    cursor: pointer;
+    margin-right: 10px;
+}
+
+#friends:hover,
+.privacy:hover {
+    background-color: #E9EBEE;
 }
 
 #post {
@@ -66,20 +63,31 @@ html {
     outline: none;
     cursor: pointer;
 }
+
+#post:hover {
+    background-color: #365899;
+}
+
+
 /*----STATUS | PHOTO/VIDEO | LIVE VIDEO | LIFE EVENT----*/
+
 #status-bar {
     border-bottom: 1px solid #DDDFE2;
     width: 463px;
     background: #F6F7F9;
     padding: 10px 0 10px 12px;
 }
-#buttons {    
+
+#buttons {
     border-top: 1px solid #DDDFE2;
     background: white;
     width: 475px;
     height: 43px;
 }
+
+
 /*FRIENDS | POST*/
+
 #bottom-right-btns {
     float: right;
     width: 180px;
@@ -103,7 +111,10 @@ html {
     margin-left: 5px;
 }
 
-.fa-flag, .fa-video-camera, .fa-camera, .fa-pencil {
+.fa-flag,
+.fa-video-camera,
+.fa-camera,
+.fa-pencil {
     margin-right: 5px;
     color: #575757;
 }
@@ -116,14 +127,14 @@ html {
     font-family: Helvetica;
     font-size: 12px;
     font-weight: bold;
-    color:#A7A7A7;
+    color: #A7A7A7;
     margin-left: 4px;
     margin-right: 5px;
 }
 
 #bottom-left-btns {
     float: left;
-    width: 130px;
+    width: 200px;
     height: 30px;
     background-color: white;
 }
@@ -131,11 +142,29 @@ html {
 .buttons-left {
     background-color: white;
     color: #989BA3;
-    padding: 13px 6px 14px 6px;
+    padding: 13px 12px 14px 12px;
     margin-right: -4px;
-    border: none;    
+    border: none;
     outline: none;
+    cursor: pointer;
 }
-.buttons-left:hover{
+
+.buttons-left:hover {
     background-color: #F2F2F2;
+}
+
+#privacy {
+    margin-top: 10px;
+}
+
+.privacy {
+    border: 1px solid #DDDFE2;
+    border-radius: 2px;
+    background: #F6F7F9;
+    color: #4B4F56;
+    font-family: Helvetica;
+    width: 100px;
+    height: 25px;
+    outline: none;
+    cursor: pointer;
 }
