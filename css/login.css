@@ -4,7 +4,7 @@ html {
 }
 
 a {
-    font-family: Helvetica;
+    font-family: Lato;
     font-size: 15px;
     color: white;
     text-decoration: none;
@@ -12,13 +12,15 @@ a {
 
 input {
     border: none;
-    font-family: Helvetica;
+    font-family: Lato;
+    font-size: 14px;
     padding-right: 10px;
     padding-left: 10px;
     width: 270px;
     height: 40px;
     background: transparent;
     border-top: none; 
+    outline: none;
 }
 
 #main-container {
@@ -44,7 +46,7 @@ input {
 
 #log-in {
     background: #5069A1;
-    font-family: Helvetica;
+    font-family: Lato;
     font-size: 15px;
     color: white;
     border: none;
@@ -52,6 +54,7 @@ input {
     width: 290px;
     height: 50px;
     margin-bottom: 10%;
+    outline: none;
     cursor: pointer;
 }
 
@@ -60,7 +63,7 @@ input {
 }
 
 .error {
-    font-family: Helvetica;
+    font-family: Lato;
     font-size: 10px;
     color: gray;
 }

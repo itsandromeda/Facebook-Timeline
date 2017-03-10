@@ -6,10 +6,42 @@
     <title>Facebook Timeline</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <h1>test</h1>
+    <div id="main-container">
+        <div id="status-bar">
+            <i class="fa fa-pencil"></i><span class="status-bar-text">Status</span>
+            <span> | </span>
+            <i class="fa fa-camera cam-1"></i><span class="status-bar-text">Photo/Video</span>
+            <span> | </span>
+            <i class="fa fa-video-camera"></i><span class="status-bar-text">Live Video</span>
+            <span> | </span>
+            <i class="fa fa-flag"></i><span class="status-bar-text">Life Event</span>
+        </div>
+        <div>
+            <textarea id="status" placeholder="What's on your mind?"></textarea>
+        </div>
+        <div id="other-language-container">
+            <span id="other-language-text"><i class="fa fa-plus-circle" aria-hidden="true"></i>Write post in another language <span class="q">[?]</span></span>  
+        </div>
+        <div id="buttons">
+            <div id="bottom-left-btns">
+                <button class="buttons-left fa fa-camera-retro"></button>
+                <button class="buttons-left fa fa-user-plus"></button>
+                <button class="buttons-left fa fa-smile-o"></button>
+                <button class="buttons-left fa fa-map-marker"></button>
+                <button class="buttons-left fa fa-calendar"></button>
+            </div>
+            <div id="bottom-right-btns">
+                <button type="button" id="post">Post</button>
+                <button type="button" id="friends"><i class="fa fa-users"></i>Friends<i class="fa fa-caret-down"></i></button>
+            </div>
+        </div>
+    </div>
     <script src="js/login.js"></script>
 </body>
 

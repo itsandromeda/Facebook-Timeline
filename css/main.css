@@ -1,0 +1,141 @@
+html {
+    background-color: #E9EBEE;
+}
+
+#main-container {
+    border:1px solid #DDDFE2;
+    /*border-radius: 3px;*/
+    margin: 4% auto;
+    width: 475px;
+    height: 185px;
+}
+
+#status {
+    background-color: #FFFFFF;
+    font-family: Lato;
+    font-size: 15px;
+    color: #4B4F56;
+    border: none;
+    resize: none;
+    width: 451px;
+    height: 50px;
+    max-height: 500px;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: -4px;
+    outline: none;
+}
+
+#other-language-container {
+    width: 470px;
+    height: 20px;
+    padding: 6px 5px 2px 0;
+    background: white;
+}
+
+#other-language-text {
+    background: white;
+    float: right;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #C9CDD2;
+}
+
+#friends { /*BORDER COLOR: #DDDFE2*/
+    float: right;
+    border:1px solid #DDDFE2;
+    border-radius: 2px;
+    background: #F6F7F9;
+    color: #4B4F56;
+    font-family: Helvetica;
+    width: 100px;
+    height: 25px;
+    margin-right:  10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#post {
+    float: right;
+    border: none;
+    border-radius: 2px;
+    background: #4267B2;
+    color: white;
+    font-family: Helvetica;
+    width: 70px;
+    height: 25px;
+    outline: none;
+    cursor: pointer;
+}
+/*----STATUS | PHOTO/VIDEO | LIVE VIDEO | LIFE EVENT----*/
+#status-bar {
+    border-bottom: 1px solid #DDDFE2;
+    width: 463px;
+    background: #F6F7F9;
+    padding: 10px 0 10px 12px;
+}
+#buttons {    
+    border-top: 1px solid #DDDFE2;
+    background: white;
+    width: 475px;
+    height: 43px;
+}
+/*FRIENDS | POST*/
+#bottom-right-btns {
+    float: right;
+    width: 180px;
+    height: 25px;
+    margin: 8px 8px 8px;
+    background-color: white;
+}
+
+.status-bar-text {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: #365899;
+}
+
+.fa-users {
+    margin-right: 10px;
+}
+
+.fa-caret-down {
+    margin-left: 5px;
+}
+
+.fa-flag, .fa-video-camera, .fa-camera, .fa-pencil {
+    margin-right: 5px;
+    color: #575757;
+}
+
+.fa-plus-circle {
+    margin-right: 7px;
+}
+
+.q {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color:#A7A7A7;
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+#bottom-left-btns {
+    float: left;
+    width: 130px;
+    height: 30px;
+    background-color: white;
+}
+
+.buttons-left {
+    background-color: white;
+    color: #989BA3;
+    padding: 13px 6px 14px 6px;
+    margin-right: -4px;
+    border: none;    
+    outline: none;
+}
+.buttons-left:hover{
+    background-color: #F2F2F2;
+}
