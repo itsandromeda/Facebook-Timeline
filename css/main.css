@@ -2,9 +2,12 @@ html {
     background-color: #E9EBEE;
 }
 
+a {
+    text-decoration: none;
+}
+
 #main-container {
     border: 1px solid #DDDFE2;
-    /*border-radius: 3px;*/
     margin: 4% auto;
     width: 475px;
     height: 185px;
@@ -103,11 +106,11 @@ html {
     color: #365899;
 }
 
-.fa-users {
+.user {
     margin-right: 10px;
 }
 
-.fa-caret-down {
+.down1 {
     margin-left: 5px;
 }
 
@@ -155,16 +158,137 @@ html {
 
 #privacy {
     margin-top: 10px;
+    position: relative;
 }
 
 .privacy {
     border: 1px solid #DDDFE2;
     border-radius: 2px;
-    background: #F6F7F9;
+    background-color: #F6F7F9;
     color: #4B4F56;
     font-family: Helvetica;
     width: 100px;
     height: 25px;
     outline: none;
     cursor: pointer;
+}
+
+
+/*--PRIVACY OPTIONS--*/
+
+.privacy-options {
+    background-color: #F6F7F9;
+    color: #4B4F56;
+    font-family: Helvetica;
+    border: 1px solid #DDDFE2;
+    border-radius: 2px;
+    outline: none;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.privacy-options:hover {
+    background-color: #F2F2F2;
+}
+
+.privacy-options:focus {
+    background-color: #4267B2;
+    color: white;
+}
+
+.privacy-options:focus:hover {
+    background-color: #355797;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.privacy-dd-content {
+    display: none;
+    font-family: Helvetica;
+    font-size: 14px;
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    width: 188px;
+    height: 220px;
+    z-index: 1;
+}
+
+.privacy-dd-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.option-title {
+    font-size: 12px;
+    color: #585C62;
+    padding: 8px 0 8px 15px;
+}
+
+.options {
+    background-color: #F6F7F9;
+    margin-bottom: 3px;
+    padding-bottom: 8px;
+    color: #353A41;
+    cursor: pointer;
+}
+
+.options:hover {
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    color: white;
+}
+
+.opt-des:hover {
+    color: white;
+}
+
+.opt-i {
+    padding-right: 5px;
+}
+
+.opt {
+    font-weight: bold;
+    padding: 8px 0 0 15px;
+}
+
+.opt-des {
+    font-family: Lato;
+    font-size: 10px;
+    color: #909090;
+    padding: 0 0 0 32px;
+}
+
+.down2 {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.more-options {
+    font-size: 12px;
+    color: #585C62;
+    padding: 8px 0 8px 15px;
+    font-size: 12px;
+    color: #585C62;
+    padding: 8px 0 8px 15px;
+    cursor: pointer;
+}
+
+.more-options:hover {
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    color: white;
+}
+
+.show {
+    display: block;
 }
