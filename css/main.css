@@ -159,6 +159,8 @@ a {
 #privacy {
     margin-top: 10px;
     position: relative;
+    background: #E9EBEE;
+    margin-bottom: 10px;
 }
 
 .privacy {
@@ -291,4 +293,62 @@ a {
 
 .show {
     display: block;
+}
+
+
+/*----NEW POSTS----*/
+
+#post-container {
+    border: 1px solid #DDDFE2;
+    background-color: #FFFFFF;
+    font-family: Lato;
+    font-size: 15px;
+    color: #4B4F56;
+    resize: none;
+    width: 474px;
+    height: auto;
+    max-height: 500px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.posts {
+    margin: 12px 10px 30px 10px;
+    padding-bottom: 12px;
+    background-color: white;
+    border-bottom: 1px solid #DDDFE2;
+}
+
+.user-header {
+    margin: 6px 10px 0 10px;
+}
+
+.user-small {
+    float: left;
+    width: 35px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+#user {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #5874AA;
+}
+
+#user:hover {
+    text-decoration: underline;
+}
+
+.date {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #A8ABB1;
+    margin-top: 5px;
+}
+
+.post-users {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #A8ABB1;
 }
